@@ -284,7 +284,7 @@ width: 100%;
 
 .conf-logo{
   
-  width: 45%;
+  width: 55%;
   display: block;
   /*margin: auto;*/
   opacity: 1;
@@ -298,9 +298,6 @@ width: 100%;
   display: none;
 }
 
-.conf-logo-horiz {
-  /*display: none;*/
-}
 
 .hero .ctas {
   margin: 0;
@@ -431,11 +428,12 @@ width: 100%;
 .sold-out-btn {
     cursor: default;
     /* background: #D2DDE8; */
-    background-color: rgba(210, 221, 232, .91);
-    color: #3c3c3c;
+    /*background-color: rgba(210, 221, 232, .91);*/
+    /*color: #3c3c3c;*/
     /*font-weight: bold;*/
-    border: none;
-    padding: 11px 24px;
+    /*border: none;*/
+    padding: 11px 24px 8px;
+    margin: 5px 0;
 }
 
 .btn-highlight:hover {
