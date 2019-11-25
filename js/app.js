@@ -26,28 +26,28 @@ var speakers = [
   bio2: '',
   special: 'Keynote Address'
 },
-{
-  firstname: 'Wendy',
-  lastname: 'Berger',
-  displayname: 'Wendy Berger',
-  title: 'CEO and President',
-  company: 'WBS Equities',
-  panel: 'Capitalizing on Cannabis: Preparing for Legalization in Your Market | Monday, Oct. 14 at 9:45 a.m.',
-  bio1: 'Wendy Berger is CEO and President of WBS Equities, LLC, and has served as a Director of the Board at Green Thumb Industries (GTI) since 2014. GTI, a national cannabis consumer packaged goods company and retailer, provides dignified access to cannabis while giving back to the communities in which they serve. GTI manufactures and distributes a portfolio of branded cannabis products including Rhythm, Dogwalkers, The Feel Collection, Incredibles and Beboe, among others. The company also owns and operates rapidly growing national retail cannabis stores called Rise™ and Essence. Headquartered in Chicago, Illinois, GTI has 13 manufacturing facilities, licenses for 95 retail locations and operations across 12 U.S. markets.',
-  bio2: 'WBS Equities, LLC, founded in 2004, specializes in ground-up construction, renovation and sale-leasebacks of food manufacturing and food distribution facilities. Over the last 30 years Berger has been involved in the real estate business as a developer, investor, lender, property manager, and a broker. She began her career at American National Bank and Trust Company of Chicago (a subsidiary of First Chicago, now JP Morgan Chase) in commercial lending. Berger spent several years as a principal with Berger Realty Group, an 80-year-old family-owned real estate business where she focused on residential and industrial property management and development.',
-  special: ''
-},
-{
-  firstname: 'Norm',
-  lastname: 'Miller',
-  displayname: 'Norm Miller',
-  title: 'Ernest W. Hahn Chair of Real Estate Finance',
-  company: 'University of San Diego School of Business',
-  panel: 'A Closer Look: The Impact of Autonomous Vehicles | Monday, Oct. 14 at 1 p.m.',
-  bio1: 'Norm Miller is the Ernest W. Hahn Chair of Real Estate Finance at the University of San Diego School of Business and is affiliated with the Burnham-Moores Center for Real Estate. He has served as a professor at USD since the fall of 2007. For much of his academic career Miller served as academic and real estate center director at the University of Cincinnati. He received his Ph.D. in Finance from the Ohio State University. His book, “Commercial Real Estate Analysis and Investment,” co-written with David Geltner of MIT, is in its third edition and is the leading graduate real estate textbook in the world. Miller is currently a Homer Hoyt Land Use Institute faculty and board member, where he is involved with premier thought leaders among academics and industry professionals in a think tank setting. Miller is a recipient of a vast number of awards.',
-  bio2: '',
-  special: ''
-},
+// {
+//   firstname: 'Wendy',
+//   lastname: 'Berger',
+//   displayname: 'Wendy Berger',
+//   title: 'CEO and President',
+//   company: 'WBS Equities',
+//   panel: 'Capitalizing on Cannabis: Preparing for Legalization in Your Market | Monday, Oct. 14 at 9:45 a.m.',
+//   bio1: 'Wendy Berger is CEO and President of WBS Equities, LLC, and has served as a Director of the Board at Green Thumb Industries (GTI) since 2014. GTI, a national cannabis consumer packaged goods company and retailer, provides dignified access to cannabis while giving back to the communities in which they serve. GTI manufactures and distributes a portfolio of branded cannabis products including Rhythm, Dogwalkers, The Feel Collection, Incredibles and Beboe, among others. The company also owns and operates rapidly growing national retail cannabis stores called Rise™ and Essence. Headquartered in Chicago, Illinois, GTI has 13 manufacturing facilities, licenses for 95 retail locations and operations across 12 U.S. markets.',
+//   bio2: 'WBS Equities, LLC, founded in 2004, specializes in ground-up construction, renovation and sale-leasebacks of food manufacturing and food distribution facilities. Over the last 30 years Berger has been involved in the real estate business as a developer, investor, lender, property manager, and a broker. She began her career at American National Bank and Trust Company of Chicago (a subsidiary of First Chicago, now JP Morgan Chase) in commercial lending. Berger spent several years as a principal with Berger Realty Group, an 80-year-old family-owned real estate business where she focused on residential and industrial property management and development.',
+//   special: ''
+// },
+// {
+//   firstname: 'Norm',
+//   lastname: 'Miller',
+//   displayname: 'Norm Miller',
+//   title: 'Ernest W. Hahn Chair of Real Estate Finance',
+//   company: 'University of San Diego School of Business',
+//   panel: 'A Closer Look: The Impact of Autonomous Vehicles | Monday, Oct. 14 at 1 p.m.',
+//   bio1: 'Norm Miller is the Ernest W. Hahn Chair of Real Estate Finance at the University of San Diego School of Business and is affiliated with the Burnham-Moores Center for Real Estate. He has served as a professor at USD since the fall of 2007. For much of his academic career Miller served as academic and real estate center director at the University of Cincinnati. He received his Ph.D. in Finance from the Ohio State University. His book, “Commercial Real Estate Analysis and Investment,” co-written with David Geltner of MIT, is in its third edition and is the leading graduate real estate textbook in the world. Miller is currently a Homer Hoyt Land Use Institute faculty and board member, where he is involved with premier thought leaders among academics and industry professionals in a think tank setting. Miller is a recipient of a vast number of awards.',
+//   bio2: '',
+//   special: ''
+// },
 {
   firstname: 'Carmela',
   lastname: 'Ma',
@@ -157,28 +157,28 @@ var speakers = [
   bio2: '',
   special: ''
 },
-{
-  firstname: 'Edgar',
-  lastname: 'Munoz',
-  displayname: 'Edgar Munoz',
-  title: 'CEO and Co-Founder',
-  company: 'Aeronyde Corporation',
-  panel: 'A Closer Look: The Impact of Autonomous Vehicles | Monday, Oct. 14 at 1 p.m.',
-  bio1: 'Edgar Munoz is the co-founder and CEO of Aeronyde Corporation. Munoz is a passionate unmanned aerial vehicle technologist and an inclusive, enabling chief executive. He is a frequent speaker at international conferences about unmanned aerial transportation standards and practices. Munoz is the inventor of several unmanned aerial systems patents pending. A contributor to ANSI, Data Processing UAS committee. His work in developing unmanned aerial transportation was recognized as a recent recipient of the Finance Monthly 2018 CEO Award. Munoz is an FAA Part 107 licensed unmanned aerial vehicle pilot. He is responsible for managing the development team that gained approval by the FAA to have Aeronyde be an official UAS Service Supplier for the Low Altitude Authorization & Notification (LAANC) program. Aeronyde was 1 of only 14 companies in the nation, including Harris, Airbus, and Thales Group approved for LAANC by the FAA. Prior to founding Aeronyde, Munoz developed and managed the sales and marketing for Harris Aerial LLC, an OEM UAV Company.',
-  bio2: '',
-  special: ''
-},
-{
-  firstname: 'Trevor',
-  lastname: 'Ragno',
-  displayname: 'Trevor Ragno',
-  title: 'Chief Real Estate Officer',
-  company: 'Aeronyde Corporation',
-  panel: 'How Today’s Digital Revolution is Reshaping CRE | Monday, Oct. 14 at 8:15 a.m.',
-  bio1: 'Trevor Ragno is the Chief Real Estate Officer (CRO) of Aeronyde Corporation, author of “Aerial Transit Oriented Planning as a Framework for Intermodal Vertiport Site Selection (2018)”, and lead-inventor of Aeronyde’s SkyPod UAV nesting system. He holds undergraduate degrees in real estate and business management from Florida State University as well as a Masters of Real Estate Development from Clemson. Prior to his work with Aeronyde, Ragno was the co-founder and CFO of Circle Marketing Group, a founding father of the Delta Lambda chapter of Beta Theta Pi, and a design engineering consultant at Function3D, a commercial-scale additive manufacturing company. Ragno is actively involved with ULI, ICSC, NAIOP, and the USGBC, and holds active certifications in ARGUS, SketchUp, and as a Part 107 sUAS Remote Pilot in command. ',
-  bio2: '',
-  special: ''
-},
+// {
+//   firstname: 'Edgar',
+//   lastname: 'Munoz',
+//   displayname: 'Edgar Munoz',
+//   title: 'CEO and Co-Founder',
+//   company: 'Aeronyde Corporation',
+//   panel: 'A Closer Look: The Impact of Autonomous Vehicles | Monday, Oct. 14 at 1 p.m.',
+//   bio1: 'Edgar Munoz is the co-founder and CEO of Aeronyde Corporation. Munoz is a passionate unmanned aerial vehicle technologist and an inclusive, enabling chief executive. He is a frequent speaker at international conferences about unmanned aerial transportation standards and practices. Munoz is the inventor of several unmanned aerial systems patents pending. A contributor to ANSI, Data Processing UAS committee. His work in developing unmanned aerial transportation was recognized as a recent recipient of the Finance Monthly 2018 CEO Award. Munoz is an FAA Part 107 licensed unmanned aerial vehicle pilot. He is responsible for managing the development team that gained approval by the FAA to have Aeronyde be an official UAS Service Supplier for the Low Altitude Authorization & Notification (LAANC) program. Aeronyde was 1 of only 14 companies in the nation, including Harris, Airbus, and Thales Group approved for LAANC by the FAA. Prior to founding Aeronyde, Munoz developed and managed the sales and marketing for Harris Aerial LLC, an OEM UAV Company.',
+//   bio2: '',
+//   special: ''
+// },
+// {
+//   firstname: 'Trevor',
+//   lastname: 'Ragno',
+//   displayname: 'Trevor Ragno',
+//   title: 'Chief Real Estate Officer',
+//   company: 'Aeronyde Corporation',
+//   panel: 'How Today’s Digital Revolution is Reshaping CRE | Monday, Oct. 14 at 8:15 a.m.',
+//   bio1: 'Trevor Ragno is the Chief Real Estate Officer (CRO) of Aeronyde Corporation, author of “Aerial Transit Oriented Planning as a Framework for Intermodal Vertiport Site Selection (2018)”, and lead-inventor of Aeronyde’s SkyPod UAV nesting system. He holds undergraduate degrees in real estate and business management from Florida State University as well as a Masters of Real Estate Development from Clemson. Prior to his work with Aeronyde, Ragno was the co-founder and CFO of Circle Marketing Group, a founding father of the Delta Lambda chapter of Beta Theta Pi, and a design engineering consultant at Function3D, a commercial-scale additive manufacturing company. Ragno is actively involved with ULI, ICSC, NAIOP, and the USGBC, and holds active certifications in ARGUS, SketchUp, and as a Part 107 sUAS Remote Pilot in command. ',
+//   bio2: '',
+//   special: ''
+// },
 {
   firstname: 'Barbara',
   lastname: 'Crane',
@@ -225,19 +225,19 @@ var speakers = [
   bio2: 'Van Ark has over thirty years of real estate experience in the commercial and investment field. Van Ark has broad experience in investment sales, office and industrial leasing, land sales and development, including multi-family projects and consulting. As a senior instructor for the CCIM Institute, Van Ark has trained real estate professionals both domestically as well as internationally. These training assignments have included such international locations as Taipei, Tokyo, Warsaw, Moscow and St. Petersburg.',
   special: ''
 },
-{
-  firstname: 'Mark',
-  lastname: 'Cypert',
-  displayname: 'Mark Cypert, CCIM',
-  title: 'Partner',
-  company: 'Middleton Partners',
-  title2: 'Senior Instructor',
-  company2: 'CCIM Institute',
-  panel: 'The Future of Market Analysis: A Conversation with Jack Dangermond | Monday, Oct. 14 at 8:30 a.m.',
-  bio1: 'Mark Cypert, CCIM, is a partner with Middleton Partners, a private equity investment firm specializing in creating value in properties through acquiring, developing, leasing, managing, and repositioning quality properties in targeted markets. During his career, he has participated in 16.9 million square feet of office, industrial and retail acquisition and development ventures with a total market capitalization of $2.25 billion. Prior to joining Middleton, he was the chief investment officer and office division president for Encore Enterprises. Cypert also previously served as the managing director of Cawley Partners, where he directed the firm\'s commercial real estate investment funds, and as senior vice president of CRT Properties, a NYSE office REIT, where he oversaw operations for the firm\'s Southwestern and Mid-Atlantic regions.',
-  bio2: 'Cypert is an award-winning senior instructor for the CCIM Institute with a specialty focus on commercial property market analysis courses, which he teaches globally. He\'s a graduate of Texas Tech University with a degree in construction engineering technology. He holds the CCIM and RPA professional designations, and he is a licensed Texas real estate broker.',
-  special: ''
-},
+// {
+//   firstname: 'Mark',
+//   lastname: 'Cypert',
+//   displayname: 'Mark Cypert, CCIM',
+//   title: 'Partner',
+//   company: 'Middleton Partners',
+//   title2: 'Senior Instructor',
+//   company2: 'CCIM Institute',
+//   panel: 'The Future of Market Analysis: A Conversation with Jack Dangermond | Monday, Oct. 14 at 8:30 a.m.',
+//   bio1: 'Mark Cypert, CCIM, is a partner with Middleton Partners, a private equity investment firm specializing in creating value in properties through acquiring, developing, leasing, managing, and repositioning quality properties in targeted markets. During his career, he has participated in 16.9 million square feet of office, industrial and retail acquisition and development ventures with a total market capitalization of $2.25 billion. Prior to joining Middleton, he was the chief investment officer and office division president for Encore Enterprises. Cypert also previously served as the managing director of Cawley Partners, where he directed the firm\'s commercial real estate investment funds, and as senior vice president of CRT Properties, a NYSE office REIT, where he oversaw operations for the firm\'s Southwestern and Mid-Atlantic regions.',
+//   bio2: 'Cypert is an award-winning senior instructor for the CCIM Institute with a specialty focus on commercial property market analysis courses, which he teaches globally. He\'s a graduate of Texas Tech University with a degree in construction engineering technology. He holds the CCIM and RPA professional designations, and he is a licensed Texas real estate broker.',
+//   special: ''
+// },
 {
   firstname: 'Todd',
   lastname: 'Kuhlmann',
@@ -251,65 +251,65 @@ var speakers = [
   bio2: '',
   special: ''
 },
-{
-  firstname: 'Karl',
-  lastname: 'Landreneau',
-  displayname: 'Karl Landreneau, CCIM',
-  title: 'Director of Commercial Sales & Leasing',
-  company: 'NAI Latter & Blum',
-  title2: 'Senior Instructor',
-  company2: 'CCIM Institute',
-  panel: 'Cap Rate and Rent Setting: Analyzing a Proposed Development | Monday, Oct. 14 at 9:45 a.m.',
-  bio1: 'Karl Landreneau, CCIM, has been an active player in matters affecting commercial real estate in Louisiana for more than 16 years and is the current director of commercial sales and leasing for NAI Latter & Blum, part of Latter & Blum, Inc. — the largest independently-owned real estate firm in the Gulf South.',
-  bio2: 'Landreneau’s previous accomplishments include 2006 chair of the Commercial Business & Industry Team for the Louisiana Realtors Association (LREC), where he was recognized for his role in helping to create the first database of Louisiana commercial properties (LACDB) for commercial agents. He has served in multiple industry leadership positions, including past president of the Commercial Investment Division (CID) of East Baton Rouge Parish, 2006 graduate of the CCIM Jay Levine Leadership Academy, where he was awarded the Susan B. Groeneveld award, 2007 president of the Louisiana CCIM chapter, 2007 CCIM Region IV first vice-president, and 2009 CCIM presidential liaison. Landreneau is a current member of CCIM’s National Board of Directors. Since 2012, he has served in senior leadership positions within the organization, including first vice president, vice president, and was elected the 2014 president of the CCIM Institute.',
-  special: ''
-},
-{
-  firstname: 'Cynthia',
-  lastname: 'Shelton',
-  displayname: 'Cynthia Shelton, CCIM, CRE',
-  title: 'Senior Managing Director of Investments and Capital Markets',
-  company: 'LandQwest',
-  title2: 'Senior Instructor',
-  company2: 'CCIM Institute',
-  panel: 'Campfire Sessions: Lessons from CCIM Women of Influence | Monday, Oct. 14 at 1 p.m.',
-  bio1: 'Cynthia Shelton, CCIM, has extensive experience in the real estate industry since 1975, with a concentration on the disposition of retail investment properties, including grocery-anchored, power shopping centers, single-tenant, net leased (NNN) properties, and retail strip centers.',
-  bio2: 'Previously the director of investments sales for Colliers International, Shelton focused on acquisition and disposition services to private and institutional clients and distressed property lenders. She was also the former vice president of acquisitions for a NYSE Real Estate Investment Trust, where she acquired single tenant assets in excess of $300 million. Shelton has facilitated disposition and sale-leaseback services for tenants and owners, development and site selection, development; an unmatched contribution for sellers to help analyze, market, sell, and maximize asset value. Shelton stays abreast of capital market trends, which allow her to assist sellers and buyers with securing debt.',
-  special: ''
-},
-{
-  firstname: 'Sue',
-  lastname: 'Earnest',
-  displayname: 'Sue Earnest, CCIM',
-  title: 'Principal',
-  company: 'Avison Young Nashville',
-  panel: 'Campfire Sessions: Lessons from CCIM Women of Influence | Monday, Oct. 14 at 1 p.m.',
-  bio1: 'Sue Earnest, CCIM, specializes in assisting Fortune 500 companies, as well as owner-occupied properties, throughout Middle Tennessee with the leasing, acquisition and/or disposition of their real estate, with a focus on the sales and leasing of industrial and commercial properties. Her knowledge of the market, attention to detail, and strong work ethic have resulted in her success and representation of sales and leasing transactions.',
-  bio2: 'Prior to joining Avison Young\'s Nashville office, Sue was a principal and broker with Cushman & Wakefield | Cornerstone and previously Newmark Knight Frank. Sue was also vice president/affiliate broker for Hawkins Company Inc. (CORFAC International), where she spent six years in sales and leasing of commercial properties, both industrial parks and office buildings. Prior to entering the commercial real estate profession in 1999, Sue worked with National Material Company, a steel coil servicing company for ten years. Here she worked in inside sales, as well as implemented and manage the ISO 9000 standards program for their Middle Tennessee service center.',
-  special: ''
-},
-{
-  firstname: 'Eric',
-  lastname: 'Pollard',
-  displayname: 'Eric Pollard',
-  title: 'Commercial Services: Real Estate Practice Lead',
-  company: 'Esri',
-  panel: 'The Power of Story Maps to Enhance Your Site Appeal | Monday, Oct. 14 at 11 a.m.',
-  bio1: 'With 15 years of professional real estate and location intelligence experience, Eric Pollard serves as the real estate practice lead for Esri’s commercial services department out of Southern California. Prior to Esri, Pollard led multiple Fortune 500 companies in creating and operating market analysis and site selection systems, combining market intelligence and spatial analysis to better position fast-growing brands within regions across the world. Pollard founded and led a consultancy specializing in market analysis and site selection for real estate and retail companies while also working in land development analysis and tenant representation. While at Esri, Pollard has worked with dozens of Fortune 100 companies across many industries to better analyze their portfolio of locations, identify opportunity potential, optimize their growth strategies, and implement location intelligence systems.',
-  bio2: '',
-  special: ''
-},
-{
-  firstname: 'David',
-  lastname: 'Moore',
-  displayname: 'David Moore',
-  title: 'CEO and Co-Founder',
-  company: 'Equity Advantage',
-  panel: '1031 Tax-Deferred Exchange | Monday, Oct. 14 at 11 a.m.',
-  bio1: 'David Moore is chief executive officer of Equity Advantage, Incorporated, a nationally-recognized leader in 1031 Exchange facilitation. Moore founded Equity Advantage with his brother Tom in 1991 after a successful career in real estate investment. Since then, Equity Advantage has developed an outstanding reputation for partnering with their investment clients to develop unique strategies for the 1031 Exchange, reducing their clients’ tax risks and increasing the value of their property portfolios.',
-  bio2: 'Moore is a recognized 1031 Exchange expert and is regularly invited to share his knowledge with realtors, investors, attorneys and property owners through seminars and classes. He is a power sponsor of CCIM Institute and is a former board member of the Federation of Exchange Accommodators (FEA). Moore played an instrumental role in the FEA’s expansion throughout the Pacific Northwest and served as chairman of the FEA Ethics Committee. He is active in Rotary Club and serves on the boards of several charity organizations.',
-  special: ''
-},
+// {
+//   firstname: 'Karl',
+//   lastname: 'Landreneau',
+//   displayname: 'Karl Landreneau, CCIM',
+//   title: 'Director of Commercial Sales & Leasing',
+//   company: 'NAI Latter & Blum',
+//   title2: 'Senior Instructor',
+//   company2: 'CCIM Institute',
+//   panel: 'Cap Rate and Rent Setting: Analyzing a Proposed Development | Monday, Oct. 14 at 9:45 a.m.',
+//   bio1: 'Karl Landreneau, CCIM, has been an active player in matters affecting commercial real estate in Louisiana for more than 16 years and is the current director of commercial sales and leasing for NAI Latter & Blum, part of Latter & Blum, Inc. — the largest independently-owned real estate firm in the Gulf South.',
+//   bio2: 'Landreneau’s previous accomplishments include 2006 chair of the Commercial Business & Industry Team for the Louisiana Realtors Association (LREC), where he was recognized for his role in helping to create the first database of Louisiana commercial properties (LACDB) for commercial agents. He has served in multiple industry leadership positions, including past president of the Commercial Investment Division (CID) of East Baton Rouge Parish, 2006 graduate of the CCIM Jay Levine Leadership Academy, where he was awarded the Susan B. Groeneveld award, 2007 president of the Louisiana CCIM chapter, 2007 CCIM Region IV first vice-president, and 2009 CCIM presidential liaison. Landreneau is a current member of CCIM’s National Board of Directors. Since 2012, he has served in senior leadership positions within the organization, including first vice president, vice president, and was elected the 2014 president of the CCIM Institute.',
+//   special: ''
+// },
+// {
+//   firstname: 'Cynthia',
+//   lastname: 'Shelton',
+//   displayname: 'Cynthia Shelton, CCIM, CRE',
+//   title: 'Senior Managing Director of Investments and Capital Markets',
+//   company: 'LandQwest',
+//   title2: 'Senior Instructor',
+//   company2: 'CCIM Institute',
+//   panel: 'Campfire Sessions: Lessons from CCIM Women of Influence | Monday, Oct. 14 at 1 p.m.',
+//   bio1: 'Cynthia Shelton, CCIM, has extensive experience in the real estate industry since 1975, with a concentration on the disposition of retail investment properties, including grocery-anchored, power shopping centers, single-tenant, net leased (NNN) properties, and retail strip centers.',
+//   bio2: 'Previously the director of investments sales for Colliers International, Shelton focused on acquisition and disposition services to private and institutional clients and distressed property lenders. She was also the former vice president of acquisitions for a NYSE Real Estate Investment Trust, where she acquired single tenant assets in excess of $300 million. Shelton has facilitated disposition and sale-leaseback services for tenants and owners, development and site selection, development; an unmatched contribution for sellers to help analyze, market, sell, and maximize asset value. Shelton stays abreast of capital market trends, which allow her to assist sellers and buyers with securing debt.',
+//   special: ''
+// },
+// {
+//   firstname: 'Sue',
+//   lastname: 'Earnest',
+//   displayname: 'Sue Earnest, CCIM',
+//   title: 'Principal',
+//   company: 'Avison Young Nashville',
+//   panel: 'Campfire Sessions: Lessons from CCIM Women of Influence | Monday, Oct. 14 at 1 p.m.',
+//   bio1: 'Sue Earnest, CCIM, specializes in assisting Fortune 500 companies, as well as owner-occupied properties, throughout Middle Tennessee with the leasing, acquisition and/or disposition of their real estate, with a focus on the sales and leasing of industrial and commercial properties. Her knowledge of the market, attention to detail, and strong work ethic have resulted in her success and representation of sales and leasing transactions.',
+//   bio2: 'Prior to joining Avison Young\'s Nashville office, Sue was a principal and broker with Cushman & Wakefield | Cornerstone and previously Newmark Knight Frank. Sue was also vice president/affiliate broker for Hawkins Company Inc. (CORFAC International), where she spent six years in sales and leasing of commercial properties, both industrial parks and office buildings. Prior to entering the commercial real estate profession in 1999, Sue worked with National Material Company, a steel coil servicing company for ten years. Here she worked in inside sales, as well as implemented and manage the ISO 9000 standards program for their Middle Tennessee service center.',
+//   special: ''
+// },
+// {
+//   firstname: 'Eric',
+//   lastname: 'Pollard',
+//   displayname: 'Eric Pollard',
+//   title: 'Commercial Services: Real Estate Practice Lead',
+//   company: 'Esri',
+//   panel: 'The Power of Story Maps to Enhance Your Site Appeal | Monday, Oct. 14 at 11 a.m.',
+//   bio1: 'With 15 years of professional real estate and location intelligence experience, Eric Pollard serves as the real estate practice lead for Esri’s commercial services department out of Southern California. Prior to Esri, Pollard led multiple Fortune 500 companies in creating and operating market analysis and site selection systems, combining market intelligence and spatial analysis to better position fast-growing brands within regions across the world. Pollard founded and led a consultancy specializing in market analysis and site selection for real estate and retail companies while also working in land development analysis and tenant representation. While at Esri, Pollard has worked with dozens of Fortune 100 companies across many industries to better analyze their portfolio of locations, identify opportunity potential, optimize their growth strategies, and implement location intelligence systems.',
+//   bio2: '',
+//   special: ''
+// },
+// {
+//   firstname: 'David',
+//   lastname: 'Moore',
+//   displayname: 'David Moore',
+//   title: 'CEO and Co-Founder',
+//   company: 'Equity Advantage',
+//   panel: '1031 Tax-Deferred Exchange | Monday, Oct. 14 at 11 a.m.',
+//   bio1: 'David Moore is chief executive officer of Equity Advantage, Incorporated, a nationally-recognized leader in 1031 Exchange facilitation. Moore founded Equity Advantage with his brother Tom in 1991 after a successful career in real estate investment. Since then, Equity Advantage has developed an outstanding reputation for partnering with their investment clients to develop unique strategies for the 1031 Exchange, reducing their clients’ tax risks and increasing the value of their property portfolios.',
+//   bio2: 'Moore is a recognized 1031 Exchange expert and is regularly invited to share his knowledge with realtors, investors, attorneys and property owners through seminars and classes. He is a power sponsor of CCIM Institute and is a former board member of the Federation of Exchange Accommodators (FEA). Moore played an instrumental role in the FEA’s expansion throughout the Pacific Northwest and served as chairman of the FEA Ethics Committee. He is active in Rotary Club and serves on the boards of several charity organizations.',
+//   special: ''
+// },
 {
   firstname: 'Chip',
   lastname: 'Watts',
@@ -321,19 +321,19 @@ var speakers = [
   bio2: 'Watts earned his CPM designation in 2004 and his Certified Commercial Investment Member (CCIM) designation in 2002. He served as the 2008 president of IREM’s Alabama chapter and the 2009 president of the CCIM Institute’s Alabama chapter. Watts served for two years as an IREM regional vice president. He also chaired the IREM Chapter Leadership Forum, the AMO Taskforce, and has been a long-time member of the IREM Governing Council. Also in 2008, Watts was honored by the Birmingham Association of REALTORS® with its “REALTOR of the Year” award and served as its president in 2014. He also served as a trustee to the University of Alabama Center for Real Estate Board for ten years, happily wearing his Auburn orange and blue on the Alabama campus!',
   special: ''
 },
-{
-  firstname: 'Eddie',
-  lastname: 'Blanton',
-  displayname: 'Eddie Blanton, CCIM',
-  title: '2019 President-Elect',
-  company: 'CCIM Institute',
-  title2: 'Principal and Senior Advisor',
-  company2: 'Tradd Commercial',
-  panel: 'Breakfast and Opening Remarks | Monday, Oct. 14 at 7:30 a.m.<br><b>Session:</b> Closing Reception | Monday, Oct. 14 at 3:15 p.m',
-  bio1: 'Eddie Blanton, CCIM, serves as a principal and senior advisor with Tradd Commercial’s Charlotte, North Carolina office. He began his commercial real estate career back in 1996. While initially operating as a leasing agent and property manager, he has since specialized in the areas of retail and investment brokerage. Blanton holds real estate broker licenses in both North and South Carolina. He was awarded the CCIM designation in May 2001. He currently serves on the North Carolina CCIM Chapter’s board as an ex-officio member, as he was the chapter’s president in 2010. He has served on the CCIM National Board of Directors since 2013 and serves as the CCIM Institute’s 2019 President-Elect.',
-  bio2: '',
-  special: ''
-},
+// {
+//   firstname: 'Eddie',
+//   lastname: 'Blanton',
+//   displayname: 'Eddie Blanton, CCIM',
+//   title: '2019 President-Elect',
+//   company: 'CCIM Institute',
+//   title2: 'Principal and Senior Advisor',
+//   company2: 'Tradd Commercial',
+//   panel: 'Breakfast and Opening Remarks | Monday, Oct. 14 at 7:30 a.m.<br><b>Session:</b> Closing Reception | Monday, Oct. 14 at 3:15 p.m',
+//   bio1: 'Eddie Blanton, CCIM, serves as a principal and senior advisor with Tradd Commercial’s Charlotte, North Carolina office. He began his commercial real estate career back in 1996. While initially operating as a leasing agent and property manager, he has since specialized in the areas of retail and investment brokerage. Blanton holds real estate broker licenses in both North and South Carolina. He was awarded the CCIM designation in May 2001. He currently serves on the North Carolina CCIM Chapter’s board as an ex-officio member, as he was the chapter’s president in 2010. He has served on the CCIM National Board of Directors since 2013 and serves as the CCIM Institute’s 2019 President-Elect.',
+//   bio2: '',
+//   special: ''
+// },
 
 
 ]
