@@ -111,7 +111,7 @@ a {
 
 .hero {
   /*background-image: url(../img/panel-recolor.jpg);*/
-  background-size: cover;
+  /*background-size: cover;*/
   overflow: hidden;
 }
 
@@ -120,8 +120,7 @@ a {
 }
 .logo-container {
   margin-top: 5rem;
-  width: 100%;
-  
+  width: 100%
   max-width: 1290px;
 }
 
@@ -807,8 +806,11 @@ footer small {
 #attend video {
   position: absolute;
   height: 100%;
+  width: 100%;
   mix-blend-mode: luminosity;
   filter: brightness(1.5);
+  object-fit: cover;
+  object-position: center;
   /*mix-blend-mode: darken;*/
   /*filter: brightness(1.25) contrast(1.125);*/
 }
