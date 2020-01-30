@@ -87,11 +87,30 @@ a {
 
 /*CONFERENCE SITE*/
 
+.bg {
+  background: url(https://kaallyn.github.io/allyn-portfolio/quality-movers/images/shutterstock_119369974.jpg) no-repeat center center;
+  background: url(../img/panel-recolor.jpg) no-repeat center center;
+  background-position: 75% 35%;
+  background-size: cover;
+  position: fixed;
+  width: 100%;
+  height: 100%; 
+  left: 0;
+  z-index: 0;
+  /*transform: translateY(-100px);*/
+  transition: all 300ms ease-in-out;
+}
 
+.bg.animated {
+  animation-delay: .2s;
+  /*transform: translateY(0px);*/
+  transition: all 300ms ease-in-out;
+
+}
 
 
 .hero {
-  background-image: url(../img/panel-recolor.jpg);
+  /*background-image: url(../img/panel-recolor.jpg);*/
   background-size: cover;
   overflow: hidden;
 }
@@ -131,6 +150,55 @@ a {
 .ctas {
     margin: 0 auto;
     position: relative;
+}
+.memberRegistration.check.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+.memberRegistration.check.not-hidden {
+  visibility: visible;
+  opacity: 1;
+  -webkit-animation-name: pulse;
+  animation-name: pulse;    
+}
+
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
 }
 
 .btn {
@@ -226,6 +294,7 @@ a {
   padding: 9.5rem 12% 0;
   width: 100%;
   margin: 0 auto;
+  position: relative;
 }
 
 .keynote h1 {
@@ -706,6 +775,18 @@ footer small {
   filter: grayscale(0%); 
 }
 
+#sponsors img.check.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  transform: translateX(0px); 
+}
+#sponsors img.check.not-hidden {
+  visibility: visible;
+  opacity: 1;    
+  transform: translateX(0px);
+  transition: all 600ms ease-in-out 
+}
+
 /* ATTEND ----------------------------------------------- */
 #attend {
   background-color: #E4264D;
@@ -719,6 +800,18 @@ footer small {
 #attend h2 {
   border-color: #D2DDE8; 
   color:#D2DDE8; 
+}
+
+#attend h2.check.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  transform: translateX(-50px); 
+}
+#attend h2.check.not-hidden {
+  visibility: visible;
+  opacity: 1;    
+  transform: translateX(0px);
+  transition: all 600ms ease-in-out 
 }
 .vip-attend {
   letter-spacing: 1px;

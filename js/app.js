@@ -16,8 +16,10 @@ $(document).ready(function(){
     // (".hero").delay(200).addClass('animated fadeInDown')
     $(".conf-logo").delay(300).addClass('animated fadeInDown');
     $(".location").delay(300).addClass('animated fadeInLeft');
-    $(".ctas").delay(350).addClass('animated fadeInUp');
+    $(".sold-out-btn").delay(350).addClass('animated fadeInUp');
     $(".nineteen").delay(350).addClass('animated fadeInUp');
+    $(".bg").delay(450).addClass('animated fadeIn');
+    $(".memberRegistration").delay(350).addClass('animated bounce');
 
 
     // $(function(){
@@ -587,7 +589,7 @@ for (var prop in sponsors) {
   thisSponsor = sponsors[prop];
   sponsorName= thisSponsor.sponsorname;
   sponsorLogo = thisSponsor.sponsorlogo; 
-  sponsorPod = '<img src="img/sponsors/'+sponsorLogo+'.jpg" alt="'+sponsorName+'"/>'
+  sponsorPod = '<img src="img/sponsors/'+sponsorLogo+'.jpg" alt="'+sponsorName+'" class=" check is-hidden"/>'
   sponsorsGoHere.append(sponsorPod);
 }
 
