@@ -664,16 +664,6 @@ footer small {
   background-size: cover; 
   transition: 1s ease-in-out;
 }
-
-#attend .pricing a {
-  color: #fff; 
-  transition: 1s ease-in-out;
-}
-  a.room-book {
-  /*color: #fff; */
-}
-#attend a.btn-primary {
-  color: #333; }
 #attend h2 {
   border-color: #D2DDE8; 
   color:#D2DDE8; 
