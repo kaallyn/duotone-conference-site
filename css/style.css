@@ -772,21 +772,11 @@ footer small {
     padding: 2% 2% 5% 2%; }
   footer .col:nth-of-type(1) {
     order: 2; }
-    footer .col:nth-of-type(1) img {
-      width: 300px;
-      margin-top: 20px; }
   footer .col:nth-of-type(2) {
     order: 1; }
   footer .col:nth-of-type(3) {
     order: 3;
     margin-top: 20px; }
-  #testimonial {
-    background-position: -60px -10px; }
-    #testimonial .right {
-      width: 58%;
-      font-size: 1.3rem; }
-    #testimonial blockquote footer {
-      font-size: .9rem; } 
   }
 
 
@@ -797,9 +787,6 @@ footer small {
   }
 }
 @media screen and (max-width: 900px) {
-  #heading {
-    background-image: url("../img/conference_logo_chicago_2018-stacked-svg-outline.svg"); 
-    }
   .event .right, .event .left {
     clear: both;
     width: 100%; }
@@ -815,15 +802,6 @@ footer small {
     background-size: cover; } }
 
 @media screen and (max-width: 785px) {
-  #passport {
-    padding: 20px 8% 0; }
-    #passport .fa-plane {
-      display: none; }
-    #passport div {
-      width: initial;
-      margin-left: 0; }
-    #passport h3 {
-      font-size: 1.3em; }
   .modal-content .close-modal {
     width: 100%;
     display: block; }
@@ -834,29 +812,10 @@ footer small {
     .feature .info {
       width: 320px;
       margin: -10px auto 20px auto; }
-  #elko-kevin .headshot {
-    order: 1; }
-  #elko-kevin .info {
-    order: 2; } }
+}
 
-
-
-@media screen and (max-width: 740px) {
-  #testimonial {
-    padding: 0; }
-    #testimonial .right {
-      width: 90%;
-      padding: 10px;
-      background: rgba(0, 0, 0, 0.5);
-      margin: 200px 0 0 0;
-      color: white; }
-    #testimonial blockquote footer {
-      color: #fff; } }
 
 @media screen and (max-width: 700px) {
-  .featured-speakers {
-    flex-direction: column;
-    text-align: center; }
   .feature {
     width: 400px;
     margin: 0 auto;
@@ -872,10 +831,7 @@ footer small {
   .modal-content.memberRegistration-info h2 {
     font-size: 2rem;
   }
-  pre {
-    margin-right: unset;
-    margin: 1rem;
-  }
+
   #sponsors .sponsor-logos img {
     margin: 10px; 
   }
@@ -940,14 +896,8 @@ footer small {
   .conf-logo{
       width: 65%;
   }
-  .keynote h5 {
-    font-size: 4rem;
-  }
   .nineteen {
     display: none;
-  }
-  .sold-out {
-    max-width: 100%;
   }
 }
 
@@ -985,30 +935,12 @@ footer small {
 
 @media screen and (max-width: 365px) {
   .speaker, .speaker .headshot img, .speaker .info {
-    width: 220px; }
+    width: 220px; 
+  }
   .modal-content p {
-    font-size: 1.3rem; } }
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
-  footer .columns {
-    flex-wrap: wrap; }
-  footer .col:first-child, footer .col:nth-child(2), footer .col:nth-child(3) {
-    flex-grow: 1;
-    border-bottom: 1px solid #6b6b6b;
-    min-width: 100%;
-    padding: 2% 2% 5% 2%; }
-  footer .col:nth-of-type(1) {
-    order: 2;
-    width: 100%; }
-    footer .col:nth-of-type(1) img {
-      width: 300px;
-      margin-top: 20px; }
-  footer .col:nth-of-type(2) {
-    order: 1;
-    width: 100%; }
-  footer .col:nth-of-type(3) {
-    order: 3;
-    width: 100%; } }
+    font-size: 1.3rem; 
+  } 
+}
 
 @media screen and (min-width: 1000px) {
   #heading {
