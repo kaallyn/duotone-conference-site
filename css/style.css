@@ -9,6 +9,7 @@
    -webkit-box-sizing: border-box; 
    -moz-box-sizing: border-box; 
    outline: none;
+   transition: all 300ms ease-in-out;
 }
 
 .cf:after {
@@ -17,13 +18,34 @@
     display: table;
 }
 
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(50px);
+}
+
+/*.is-hidden-btn {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(50px);
+}*/
+
+.not-hidden {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(1px);
+}
+
+
+
 html {
   font-size: 10px;
   overflow-y: scroll;
+  background: #3c3c3c; 
 }
 body {
   margin: 0;
-  background: #000; 
+  background: #3c3c3c; 
   font-family: "Hevetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.35rem;
   font-weight: 300;
@@ -65,6 +87,9 @@ a {
 
 /*CONFERENCE SITE*/
 
+
+
+
 .hero {
   background-image: url(../img/panel-recolor.jpg);
   background-size: cover;
@@ -92,7 +117,7 @@ a {
 }
 
 .conf-logo{
-  width: 47%;
+  width: 55%;
   display: block;
   opacity: 1;
   filter: drop-shadow(1px 1px 8px rgba(135,20,38,.35));
@@ -396,7 +421,21 @@ footer small {
   }
 
 .speaker:hover {
-  cursor: pointer; }
+  cursor: pointer; 
+}
+
+.speaker.check.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  offset: ;
+  transform: translateY(10px); 
+}
+.speaker.check.not-hidden {
+  visibility: visible;
+  opacity: 1;    
+  transform: translateY(0px);
+  transition: all 600ms ease-in-out 
+}
 
 .feature {
   width: 100%;
@@ -563,6 +602,19 @@ footer small {
   margin: 40px -260px 0;
   font-size: 2.4rem;
   font-family: futura new;
+}
+
+
+#agenda h3.check.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  transform: translateX(-50px); 
+}
+#agenda h3.check.not-hidden {
+  visibility: visible;
+  opacity: 1;    
+  transform: translateX(0px);
+  transition: all 600ms ease-in-out 
 }
 
 #agenda h3 span {
