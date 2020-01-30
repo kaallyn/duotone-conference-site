@@ -625,45 +625,6 @@ prices.on('click', function(){
   closeModal();
 });
 
-
-// Show member registration optionss
-// var prices = $('.memberRegistration');
-// var ticket = $('.tickets');
-// prices.on('click', function(){
-//   $b.append(modalStart+'<h2>Will you be attending the CCIM Annual Governance Meetings* in addition to the CCIM Global Conference?</h2><div class="ctas"><pre><a href="https://ccim.personifycloud.com/personifyebusiness/Events/CCIMEventsCalendar/CCIMMeetingRegistration.aspx?productId=193635481"><span>Yes</span>, please allow me to register for both the CCIM Global Conference and Annual Governance Meetings </a></pre><pre><a href="https://ccim.personifycloud.com/personifyebusiness/Events/CCIMEventsCalendar/CCIMMeetingRegistration.aspx?productId=193635875"><span>No</span>, I\'d just like to register for the CCIM Global Conference and official pre-conference events </a></pre></div><p><b>*What are the CCIM Annual Governance Meetings?</b> The CCIM Governance Meetings are primarily for CCIM board and committee volunteers and their guests. The CCIM Annual Governance Meetings registration process includes <b>all</b> CCIM events hosted in San Diego: the CCIM Global Conference, pinning ceremony, inaugural ball, all committee meetings, and more opportunities to connect with CCIM members and volunteers.</p>'+modalEnd);
-//   $('.modal-content').addClass('memberRegistration-info');
-//   showModal();
-//   closeModal();
-// });
-
-
-// Show member registration optionss
-// var prices = $('.memberRegistration');
-// var ticket = $('.tickets');
-// prices.on('click', function(){
-//   $b.append(modalStart+'<h2>Will you be attending the CCIM Annual Governance Meetings* in addition to the CCIM Global Conference?</h2><div class="ctas"><pre><a href="https://ccim.personifycloud.com/personifyebusiness/Events/CCIMEventsCalendar/CCIMMeetingRegistration.aspx?productId=193635481"><span>Yes</span>, please allow me to register for both the CCIM Global Conference and Annual Governance Meetings </a></pre><pre><a href="https://ccim.personifycloud.com/personifyebusiness/Events/CCIMEventsCalendar/CCIMMeetingRegistration.aspx?productId=193635875"><span>No</span>, I\'d just like to register for the CCIM Global Conference and official pre-conference events </a></pre></div><p><b>*What are the CCIM Annual Governance Meetings?</b> The CCIM Governance Meetings are primarily for CCIM board and committee volunteers and their guests. The CCIM Annual Governance Meetings registration process includes <b>all</b> CCIM events hosted in San Diego: the CCIM Global Conference, pinning ceremony, inaugural ball, all committee meetings, and more opportunities to connect with CCIM members and volunteers.</p>'+modalEnd);
-//   $('.modal-content').addClass('memberRegistration-info');
-//   showModal();
-//   closeModal();
-// });
-
-
-// ID of the Google Spreadsheet
- // var spreadsheetID = "1gGv7kVPNNyV7EjxozK2WkPa2hfqotvT0UZ-X3VM4vqU";
-
- // // Make sure it is public or set to Anyone with link can view 
- // var url = "https://spreadsheets.google.com/feeds/list/" + spreadsheetID + "/od6/public/values?alt=json";
-
- // $.getJSON(url, function(data) {
-
- //  var entry = data.feed.entry;
-
- //  $(entry).each(function(){
- //    // Column names are name, age, etc.
- //    $('.results').prepend('<h2>'+this.gsx$name.$t+'</h2><p>'+this.gsx$age.$t+'</p>');
- //  });
-
- // });
 var $w = $(window);
 var $b= $('body');
 var $this = $(this);
