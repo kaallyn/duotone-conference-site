@@ -677,7 +677,7 @@ footer small {
 #agenda h3.check.is-hidden {
   visibility: hidden;
   opacity: 0;
-  transform: translateX(-50px); 
+  transform: translateX(-70px); 
 }
 #agenda h3.check.not-hidden {
   visibility: visible;
