@@ -33,14 +33,6 @@ body {
 
 }
 
-
-/*#show {
-  display: block;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s;
-}
-*/
-
 .left {
   float: left;
   width: 50%; }
@@ -79,58 +71,14 @@ a {
   overflow: hidden;
 }
 
-
-@-webkit-keyframes move {
-  0% {
-    -webkit-transform-origin: bottom left;
-    -moz-transform-origin: bottom left;
-    -ms-transform-origin: bottom left;
-    -o-transform-origin: bottom left;
-    transform-origin: bottom left;
-    transform: scale(1.0);
-    -ms-transform: scale(1.0);
-    /* IE 9 */
-    
-    -webkit-transform: scale(1.0);
-    /* Safari and Chrome */
-    
-    -o-transform: scale(1.0);
-    /* Opera */
-    
-    -moz-transform: scale(1.0);
-    /* Firefox */
-  }
-  100% {
-    transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    /* IE 9 */
-    
-    -webkit-transform: scale(1.1);
-    /* Safari and Chrome */
-    
-    -o-transform: scale(1.1);
-    /* Opera */
-    
-    -moz-transform: scale(1.1);
-    /* Firefox */
-  }
-}
 .hero-content {
   padding: 16% 6% 8%;
 }
 .logo-container {
-  /*background-color: blue;*/
   margin-top: 5rem;
   width: 100%;
   
   max-width: 1290px;
-}
-
-.save {
-      margin-bottom: .51rem;
-      text-transform: uppercase;
-      font-size: 2.1rem;
-      letter-spacing: 2px;
 }
 
 .location {
@@ -144,21 +92,12 @@ a {
 }
 
 .conf-logo{
-  
   width: 47%;
   display: block;
-  /*margin: auto;*/
   opacity: 1;
-/*  mix-blend-mode: multiply;
-  mix-blend-mode: soft-light;*/
   filter: drop-shadow(1px 1px 8px rgba(135,20,38,.35));
 
 }
-
-.conf-logo-stacked {
-  display: none;
-}
-
 
 .hero .ctas {
   margin: 0;
@@ -166,41 +105,10 @@ a {
 
 .ctas {
     margin: 0 auto;
-    /* background-color: blue; */
-    /*max-width: 800px;*/
-    /*text-align: center;*/
-    /*margin: 40px auto;*/
     position: relative;
-}
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #BBC6D4;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    /*margin-left: 5px;*/
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    background: #BBC6D4
-    ;
-}
-
-.dropdown-content a:hover {
-    background-color: #D2DDE8;
 }
 
 .btn {
-    /*font-weight: 800;*/
     font-size: 1.3em;
     letter-spacing: 2px;
     padding: 5px;
@@ -211,18 +119,15 @@ a {
 }
 
 .btn-highlight {
-    /*background-color: rgba(255,255,255,.2);*/
     border-bottom: 1px solid #D2DDE8;
     color: #D2DDE8;
     font-size: 18px;
     display: inline-block;
-    /*box-shadow: rgba(0, 0, 0, 0.1) 6px -1px 20px 0px;*/
 }
 
 .btn-highlight:hover {
     background-color: #fff;
     background-color: rgba(255,255,255,.2);
-    /*color: #333;*/
 }
 .btn:hover {
     text-decoration: none;
@@ -232,15 +137,12 @@ a {
 /*----------------*/
 .ctas {
   margin: 0 auto;
-  /*background-color: blue;*/
   max-width: 800px;
-  /*text-align: center;*/
   margin: 40px 0;
   position: relative;
 }
 
 .btn {
-  /*font-weight: 800;*/
   font-size: 1.3em;
   letter-spacing: 2px;
   margin: 5px;
@@ -248,32 +150,15 @@ a {
   text-decoration: none;
   text-transform: uppercase;
   transition: all .2s;
-  white-space: nowrap; }
-
-.btn-xl {
-  font-size: 1.6rem; }
+  white-space: nowrap; 
+}
 
 .btn:hover {
-  text-decoration: none; }
-
-.btn-primary {
-  background: #fdcd51;
-  color: #333; }
-
-.btn-primary:hover {
-  background: #f3c216; }
-
-.btn-secondary {
-  background: #8b0f1E;
-  color: #fff; }
-
-.btn-secondary:hover {
-  background: #630a15; }
+  text-decoration: none; 
+}
 
 .btn-highlight {
   background-color: rgba(255,255,255,.2);
-/*  background-color: rgba(255,220,168,.5);
-  background: #fba84a;*/
   border: 1px solid #D2DDE8 ;
   color: #fff;
   font-size: 18px;
@@ -288,11 +173,6 @@ a {
 
 .sold-out-btn {
     cursor: default;
-    /* background: #D2DDE8; */
-    /*background-color: rgba(210, 221, 232, .91);*/
-    /*color: #3c3c3c;*/
-    /*font-weight: bold;*/
-    /*border: none;*/
     padding: 11px 24px 8px;
     margin: 5px 0;
 }
@@ -302,23 +182,6 @@ a {
     color: #3c3c3c;
 }
 /*------------*/
-.activeX {
-    display: block;
-}
-
-.sold-out {
-  position: relative;
-  z-index: 3;
-  letter-spacing: 1px;
-  max-width: 50%;
-  font-size: 1.4rem;
-  margin-top: 4rem;
-}
-
-.sold-out a {
-    border-bottom: 1px solid #D2DDE8;
-    padding: 0 0 .125rem;
-}
 
 .nineteen {
   position: fixed;
@@ -383,98 +246,62 @@ footer small {
 
 
 footer {
-
   color: #D2DDE8;
   background-color: #3c3c3c;
   position: relative;
   bottom: 0;
   width: 100%;
   font-size: .9em;
-  padding-top: 20px; }
-  footer .logo {
-    width: 100%;
-    text-align: center;
-  }
-  footer .logo img {
-    max-width: 58px;
-    margin-bottom: 10px; 
-  }
-  footer a {
-    color: #D2DDE8;
-    text-decoration: none; 
-  }
-  footer a:hover {
-    color: white;
-  }
-  footer .columns {
-    display: flex;
-    padding: 0 4%; 
-    position: relative;
-    z-index: 3;
-  }
-    footer .columns h4 {
-      font-family: futura new;
-      font-size: 1.52em;
-      text-transform: uppercase; }
-  footer .col:nth-of-type(1) {
-    flex-grow: 1;
-    padding: 2% 2% 2% 4%;
-    width: 300px;
-    order: 1; }
-  footer .col:nth-of-type(2) {
-    flex-grow: 1;
-    padding: 2% 2% 0 2%;
-    width: 300px;
-    order: 3; }
-  footer .col:nth-of-type(3) {
-    padding: 3% 2%;
-    flex-grow: 3;
-    order: 2; }
-  footer .logo-conference {
-    width: 250px; }
-  footer .footer-nav {
-    text-align: center; }
-    footer .footer-nav nav {
-      margin: 30px auto 0 auto;
-      width: 120px;
-      text-align: center; }
-      footer .footer-nav nav ul {
-        -webkit-margin-before: 0;
-        -webkit-margin-after: 0;
-        -webkit-padding-start: 0;
-        -moz-margin-before: 0;
-        -moz-margin-after: 0;
-        -moz-padding-start: 0; }
-        footer .footer-nav nav ul li {
-          display: block;
-          text-align: left;
-          text-transform: uppercase;
-          margin-bottom: .8em;
-          padding-bottom: .2em;
-          border-bottom: 2px solid transparent;
-          text-align: center;
-          font-size: 1.3em; }
-        footer .footer-nav nav ul li:hover {
-          border-bottom: 2px solid #fff; }
-  footer .social {
-    text-align: center;
-    margin: 50px 0; }
-    footer .social .fa {
-      border: 1px solid #fff;
-      border-radius: 5px;
-      font-size: 30px;
-      width: 50px;
-      height: 50px;
-      padding-top: 10px;
-      transition: .2s all; }
-    footer .social .fa:hover {
-      border: 1px solid #fff;
-      background: #fff;
-      color: #333; }
-  footer p:last-child {
-    margin: 0; }
-  footer p:last-child.hashtag {
-    margin-top: 20px; }
+  padding-top: 20px; 
+}
+
+footer .logo {
+  width: 100%;
+  text-align: center;
+}
+footer .logo img {
+  max-width: 58px;
+  margin-bottom: 10px; 
+}
+footer a {
+  color: #D2DDE8;
+  text-decoration: none; 
+}
+footer a:hover {
+  color: white;
+}
+footer .columns {
+  display: flex;
+  padding: 0 4%; 
+  position: relative;
+  z-index: 3;
+}
+  footer .columns h4 {
+    font-family: futura new;
+    font-size: 1.52em;
+    text-transform: uppercase; }
+footer .col:nth-of-type(1) {
+  flex-grow: 1;
+  padding: 2% 2% 2% 4%;
+  width: 300px;
+  order: 1; }
+footer .col:nth-of-type(2) {
+  flex-grow: 1;
+  padding: 2% 2% 0 2%;
+  width: 300px;
+  order: 3; }
+footer .col:nth-of-type(3) {
+  padding: 3% 2%;
+  flex-grow: 3;
+  order: 2; }
+footer .logo-conference {
+  width: 250px; }
+footer .footer-nav {
+  text-align: center; }
+  
+footer p:last-child {
+  margin: 0; }
+
 footer small {
     bottom: 0;
     display: block;
@@ -517,10 +344,6 @@ footer small {
   color: #3c3c3c;
 }
 
-#speakers .m {
-    width: 100%;
-    text-align: center; 
-}
 
 .note {
   font-size: .9em;
@@ -602,16 +425,6 @@ footer small {
     font-family: 'futura new', sans-serif;
   }
 
-#elko-kevin .headshot {
-  order: 2; }
-
-#elko-kevin .info {
-  order: 1; }
-
-.speaker.hovering {
-  background: #E4264D;
-  color: #fff; }
-
 .modal {
 
     position: fixed;
@@ -632,24 +445,9 @@ footer small {
   animation: fadeIn 200ms;
 }
 
-@keyframes fadeIn {
-    from { opacity: 0; }
-      to { opacity: 1; }
-}
-
 .modal.fadeOut {
-  /*display: none;*/
   -webkit-animation: fadeOut 1s;
   animation: fadeOut 1s;
-}
-
-@keyframes fadeOut {
-    from { opacity: 1; }
-      to { opacity: 0; }
-}
-
-.stopfade { 
-   opacity: .5;
 }
 
 
@@ -657,7 +455,6 @@ footer small {
   background-color: #fefefe;
   margin: 2% auto;
   color: #3c3c3c;
-  /* 2 from the top and centered */
   padding: 20px 40px;
   width: 75%;
   /* Could be more or less, depending on screen size */
@@ -670,47 +467,46 @@ footer small {
   position: relative;
   z-index: 17;
 }
-  .modal-content h1 {
-    margin: 0 0 0 -40px;
-    padding: 15px 15px 10px 40px;
-    background: #E4264D;
-    line-height: 1;
-    color: #fff;
-    max-width: 440px; 
-    font-family: futura new, Helvetica, arial, sans-serif;
+.modal-content h1 {
+  margin: 0 0 0 -40px;
+  padding: 15px 15px 10px 40px;
+  background: #E4264D;
+  line-height: 1;
+  color: #fff;
+  max-width: 440px; 
+  font-family: futura new, Helvetica, arial, sans-serif;
+}
+.modal-content h2 {
+  color: #3c3c3c;
+  line-height: 2.5rem;
+  font-size: 1.65rem;
+  margin: 1.5rem 0;
+}
+.modal-content h2.show {
+    /*opacity: .5;*/
+    margin-top: -1.5rem;
   }
-  .modal-content h2 {
-    color: #3c3c3c;
-    line-height: 2.5rem;
-    font-size: 1.65rem;
-    margin: 1.5rem 0;
-  }
-  .modal-content h2.show {
-      /*opacity: .5;*/
-      margin-top: -1.5rem;
-    }
-  .modal-content img {
-    width: 150px;
-    float: right;
-    margin: .25rem 0 20px 20px; }
-  .modal-content .close-modal {
-    text-align: right;
-    font-size: 40px;
-    font-weight: bold;
-    margin: 0;
-    padding: 10px 10px 10px 20px;
-    width: 50px;
-    float: right;
-    /*margin: -15px 0 0 0; */
-  }
-  .modal-content .close-modal:hover {
-    color: #E4264D;
-    cursor: pointer; }
-  .modal-content .speaker-session {
-    padding-top: 10px;
-    border-top: 1px solid #dedede; 
-    /*display: none;*/
-  }
+.modal-content img {
+  width: 150px;
+  float: right;
+  margin: .25rem 0 20px 20px; }
+.modal-content .close-modal {
+  text-align: right;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px 10px 10px 20px;
+  width: 50px;
+  float: right;
+}
+.modal-content .close-modal:hover {
+  color: #E4264D;
+  cursor: pointer; 
+}
+.modal-content .speaker-session {
+  padding-top: 10px;
+  border-top: 1px solid #dedede; 
+}
 
 .modal-content.price-info h2 {
   font-weight: bold;
@@ -723,7 +519,6 @@ footer small {
 }
 
 .modal-content.memberRegistration-info .ctas{
-  /*background: blue;*/
   text-align: center;
 }
 
@@ -731,46 +526,8 @@ footer small {
 .modal-content.memberRegistration-info .btn-highlight {
   background: #E4264D;
   text-transform: none;
-  
-
-
-}
-pre {
-  white-space: pre-wrap;       /* css-3 */
-  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-  white-space: -pre-wrap;      /* Opera 4-6 */
-  white-space: -o-pre-wrap;    /* Opera 7 */
-  word-wrap: break-word;       /* Internet Explorer 5.5+ */
-  max-width: 300px;
-  display: inline-block;
-  font-family: "Hevetica Neue", Helvetica, Arial, sans-serif;
-  margin-right:20px;
-  padding: 16px;
-  font-size: 1.35rem;
-  background: #E4264D;
-  transition: all .2s; 
 }
 
-pre:hover {
-  background: #d12447;
-}
-
-pre a {
-  padding: 0;
-  color: #fff;
-}
-pre:last-of-type {
-  background: gray;
-}
-
-pre:last-of-type:hover {
-  background: #666666;
-}
-
-pre a span {
-  font-family: futura new;
-  font-size: 2.3rem;
-}
 .modal-content.memberRegistration-info h2 {
   font-family: futura new;
   font-size: 2.2rem;
@@ -807,12 +564,13 @@ pre a span {
   font-size: 2.4rem;
   font-family: futura new;
 }
-  #agenda h3 span {
-    display: block;
-    font-size: 1.35rem;
-    padding-top: 10px; 
-    font-family: "Hevetica Neue", Helvetica, Arial, sans-serif;
-  }
+
+#agenda h3 span {
+  display: block;
+  font-size: 1.35rem;
+  padding-top: 10px; 
+  font-family: "Hevetica Neue", Helvetica, Arial, sans-serif;
+}
 
 #agenda a {
   color: #E4264D;
@@ -858,14 +616,6 @@ pre a span {
 .event .right {
   width: 80%;
   padding-left: 5%; }
-
-.event .who {
-  float: left; }
-
-.event .right img {
-  width: 60px;
-  float: left;
-  margin: 0 0 1rem 10px; }
 
 .event .sponsored {
   font-size: 1.25rem;
@@ -915,128 +665,76 @@ pre a span {
   transition: 1s ease-in-out;
 }
 
-
-  #attend .pricing a {
-    color: #fff; 
-    transition: 1s ease-in-out;
-  }
-    a.room-book {
-    /*color: #fff; */
-  }
-  #attend a.btn-primary {
-    color: #333; }
-  #attend h2 {
-    border-color: #D2DDE8; 
-    color:#D2DDE8; 
-  }
+#attend .pricing a {
+  color: #fff; 
+  transition: 1s ease-in-out;
+}
+  a.room-book {
+  /*color: #fff; */
+}
+#attend a.btn-primary {
+  color: #333; }
+#attend h2 {
+  border-color: #D2DDE8; 
+  color:#D2DDE8; 
+}
 .vip-attend {
   letter-spacing: 1px;
-    /* color: #D2DDE8; */
-    max-width: 800px;
-    font-size: 1.4rem;
-    padding: 2.5rem 0;
+  max-width: 800px;
+  font-size: 1.4rem;
+  padding: 2.5rem 0;
 }
 
 .vip-attend a {
-    color: #D2DDE8; 
-    padding: 0 0 .5rem;
-  
+  color: #D2DDE8; 
+  padding: 0 0 .5rem;
 }
-
-
-  #attend h3 {
-    font-size: 2em;
-    font-weight: bold; }
-  #attend .tickets {
-    font-size: 2.2em;
-    width: 200px; }
-    #attend .tickets h4 {
-      margin: 0;
-      padding: 5px 10px 20px 0; }
-    #attend .tickets span {
-      font-size: 1.2rem;
-      display: block;
-      font-weight: 400;
-      letter-spacing: 1.2px; }
-  #attend .location {
-    font-size: 1.6em;
-    margin: 0; }
-  #attend address {
-    margin: 0;
-    padding: 0;
-    font-style: normal; }
-  #attend .ctas {
-    margin: 40px 0; }
-  #attend .btn-highlight {
-    color: #fff;
-  }
-  #attend .btn-highlight:hover {
-    color: #3c3c3c;
-  }
-
- /* #attend a.minor{
-    color: #D2DDE8; 
-    padding: 0 0 .5rem;
-  }*/
-    #attend a.minor:hover {
-      border-bottom: 1px solid
-    }
-
-  #attend a.pricing {
-    /*color: #fff; */
-    /*transition: 300ms ease-in-out;*/
-  }
-
-  #attend h4 > a.pricing {
-    text-decoration: none; 
-    color: #fff;
-    font-size: 4rem;
-    letter-spacing: 2px;
-    font-family: futura new;
-
-  }
-  #attend .pricing:hover {
-    color: #D2DDE8; 
-  border-bottom: 1px solid}
-    #attend .room-book:hover {
-    color: #D2DDE8; 
+.vip-attend a:hover {
+  color: #D2DDE8; 
   border-bottom: 1px solid
 }
 
-  #attend .price-info {
-    line-height: 1.6; }
-  .price-info h3 {
-    margin: 3rem 0 -.9rem;
-    font-size: 1.4rem;
-    font-weight: 300;
-    text-transform: uppercase;
-    
-  }
-  .price-info div {
-    /*font-size: 1.8rem;*/
-  }
+#attend h3 {
+  font-size: 2em;
+  font-weight: bold; 
+}
+#attend .tickets {
+  font-size: 2.2em;
+  width: 200px; 
+}
+#attend .tickets h4 {
+  margin: 0;
+  padding: 5px 10px 20px 0; 
+}
+#attend .tickets span {
+  font-size: 1.2rem;
+  display: block;
+  font-weight: 400;
+  letter-spacing: 1.2px; 
+}
+#attend .location {
+  font-size: 1.6em;
+  margin: 0; }
+#attend address {
+  margin: 0;
+  padding: 0;
+  font-style: normal; }
+#attend .ctas {
+  margin: 40px 0; }
+#attend .btn-highlight {
+  color: #fff;
+}
+#attend .btn-highlight:hover {
+  color: #3c3c3c;
+}
 
-  .price-info h3 span {
-    text-transform: uppercase;
-    color: #E4264D;
-    font-size: 1.6rem;
-    /*font-size: 1.7rem;*/
-    font-weight: bold;
-    /*font-family: futura new;*/
-
-  }
-  .price-info p b {
-    font-size: 2rem;
-    /*color: #E4264D;*/
-    /*font-family: futura new;*/
-    line-height: 2rem;
-  }
- /* .price-info div {
-    font-size: 1.8rem;
-    line-height: 2.2rem;
-  }
-*/
-
+#attend h4 > a.pricing {
+  text-decoration: none; 
+  color: #fff;
+  font-size: 4rem;
+  letter-spacing: 2px;
+  font-family: futura new;
+}
 
 .price-info  span {
   text-decoration: line-through;
@@ -1057,9 +755,12 @@ pre a span {
 
 @media screen and (max-width: 1321px) {
   .event .left {
-    width: 30%; }
+    width: 30%; 
+  }
   .event .right {
-    width: 70%; } }
+    width: 70%; 
+  } 
+}
 
 @media screen and (max-width: 1000px) {
   footer .columns {

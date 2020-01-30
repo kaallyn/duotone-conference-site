@@ -26,28 +26,7 @@ var speakers = [
   bio2: '',
   special: 'Keynote Address'
 },
-// {
-//   firstname: 'Wendy',
-//   lastname: 'Berger',
-//   displayname: 'Wendy Berger',
-//   title: 'CEO and President',
-//   company: 'WBS Equities',
-//   panel: 'Capitalizing on Cannabis: Preparing for Legalization in Your Market | Monday, Oct. 14 at 9:45 a.m.',
-//   bio1: 'Wendy Berger is CEO and President of WBS Equities, LLC, and has served as a Director of the Board at Green Thumb Industries (GTI) since 2014. GTI, a national cannabis consumer packaged goods company and retailer, provides dignified access to cannabis while giving back to the communities in which they serve. GTI manufactures and distributes a portfolio of branded cannabis products including Rhythm, Dogwalkers, The Feel Collection, Incredibles and Beboe, among others. The company also owns and operates rapidly growing national retail cannabis stores called Rise™ and Essence. Headquartered in Chicago, Illinois, GTI has 13 manufacturing facilities, licenses for 95 retail locations and operations across 12 U.S. markets.',
-//   bio2: 'WBS Equities, LLC, founded in 2004, specializes in ground-up construction, renovation and sale-leasebacks of food manufacturing and food distribution facilities. Over the last 30 years Berger has been involved in the real estate business as a developer, investor, lender, property manager, and a broker. She began her career at American National Bank and Trust Company of Chicago (a subsidiary of First Chicago, now JP Morgan Chase) in commercial lending. Berger spent several years as a principal with Berger Realty Group, an 80-year-old family-owned real estate business where she focused on residential and industrial property management and development.',
-//   special: ''
-// },
-// {
-//   firstname: 'Norm',
-//   lastname: 'Miller',
-//   displayname: 'Norm Miller',
-//   title: 'Ernest W. Hahn Chair of Real Estate Finance',
-//   company: 'University of San Diego School of Business',
-//   panel: 'A Closer Look: The Impact of Autonomous Vehicles | Monday, Oct. 14 at 1 p.m.',
-//   bio1: 'Norm Miller is the Ernest W. Hahn Chair of Real Estate Finance at the University of San Diego School of Business and is affiliated with the Burnham-Moores Center for Real Estate. He has served as a professor at USD since the fall of 2007. For much of his academic career Miller served as academic and real estate center director at the University of Cincinnati. He received his Ph.D. in Finance from the Ohio State University. His book, “Commercial Real Estate Analysis and Investment,” co-written with David Geltner of MIT, is in its third edition and is the leading graduate real estate textbook in the world. Miller is currently a Homer Hoyt Land Use Institute faculty and board member, where he is involved with premier thought leaders among academics and industry professionals in a think tank setting. Miller is a recipient of a vast number of awards.',
-//   bio2: '',
-//   special: ''
-// },
+
 {
   firstname: 'Carmela',
   lastname: 'Ma',
@@ -157,28 +136,6 @@ var speakers = [
   bio2: '',
   special: ''
 },
-// {
-//   firstname: 'Edgar',
-//   lastname: 'Munoz',
-//   displayname: 'Edgar Munoz',
-//   title: 'CEO and Co-Founder',
-//   company: 'Aeronyde Corporation',
-//   panel: 'A Closer Look: The Impact of Autonomous Vehicles | Monday, Oct. 14 at 1 p.m.',
-//   bio1: 'Edgar Munoz is the co-founder and CEO of Aeronyde Corporation. Munoz is a passionate unmanned aerial vehicle technologist and an inclusive, enabling chief executive. He is a frequent speaker at international conferences about unmanned aerial transportation standards and practices. Munoz is the inventor of several unmanned aerial systems patents pending. A contributor to ANSI, Data Processing UAS committee. His work in developing unmanned aerial transportation was recognized as a recent recipient of the Finance Monthly 2018 CEO Award. Munoz is an FAA Part 107 licensed unmanned aerial vehicle pilot. He is responsible for managing the development team that gained approval by the FAA to have Aeronyde be an official UAS Service Supplier for the Low Altitude Authorization & Notification (LAANC) program. Aeronyde was 1 of only 14 companies in the nation, including Harris, Airbus, and Thales Group approved for LAANC by the FAA. Prior to founding Aeronyde, Munoz developed and managed the sales and marketing for Harris Aerial LLC, an OEM UAV Company.',
-//   bio2: '',
-//   special: ''
-// },
-// {
-//   firstname: 'Trevor',
-//   lastname: 'Ragno',
-//   displayname: 'Trevor Ragno',
-//   title: 'Chief Real Estate Officer',
-//   company: 'Aeronyde Corporation',
-//   panel: 'How Today’s Digital Revolution is Reshaping CRE | Monday, Oct. 14 at 8:15 a.m.',
-//   bio1: 'Trevor Ragno is the Chief Real Estate Officer (CRO) of Aeronyde Corporation, author of “Aerial Transit Oriented Planning as a Framework for Intermodal Vertiport Site Selection (2018)”, and lead-inventor of Aeronyde’s SkyPod UAV nesting system. He holds undergraduate degrees in real estate and business management from Florida State University as well as a Masters of Real Estate Development from Clemson. Prior to his work with Aeronyde, Ragno was the co-founder and CFO of Circle Marketing Group, a founding father of the Delta Lambda chapter of Beta Theta Pi, and a design engineering consultant at Function3D, a commercial-scale additive manufacturing company. Ragno is actively involved with ULI, ICSC, NAIOP, and the USGBC, and holds active certifications in ARGUS, SketchUp, and as a Part 107 sUAS Remote Pilot in command. ',
-//   bio2: '',
-//   special: ''
-// },
 {
   firstname: 'Barbara',
   lastname: 'Crane',
