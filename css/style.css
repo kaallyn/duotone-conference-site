@@ -88,9 +88,9 @@ a {
 /*CONFERENCE SITE*/
 
 .bg {
-  background: url(https://kaallyn.github.io/allyn-portfolio/quality-movers/images/shutterstock_119369974.jpg) no-repeat center center;
+  /*background: url(https://kaallyn.github.io/allyn-portfolio/quality-movers/images/shutterstock_119369974.jpg) no-repeat center center;*/
   background: url(../img/panel-recolor.jpg) no-repeat center center;
-  background-position: 75% 35%;
+  /*background-position: 75% 35%;*/
   background-size: cover;
   position: fixed;
   width: 100%;
@@ -809,8 +809,8 @@ footer small {
   height: 100%;
   mix-blend-mode: luminosity;
   filter: brightness(1.5);
-  mix-blend-mode: darken;
-  filter: brightness(1.25) contrast(1.125);
+  /*mix-blend-mode: darken;*/
+  /*filter: brightness(1.25) contrast(1.125);*/
 }
 
 #attend h2 {
