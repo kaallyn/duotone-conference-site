@@ -18,7 +18,7 @@ $(document).ready(function(){
     $(".location").delay(300).addClass('animated fadeInLeft');
     $(".sold-out-btn").delay(350).addClass('animated fadeInUp');
     $(".nineteen").delay(350).addClass('animated fadeInUp');
-    // $(".bg").delay(450).addClass('animated fadeIn');
+    $(".bg").delay(1450).addClass('animated fadeIn');
     $(".memberRegistration").delay(350).addClass('animated bounce');
 
 
