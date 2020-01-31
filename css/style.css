@@ -94,7 +94,10 @@ a {
   background-size: cover;
   position: fixed;
   width: 100%;
+  width:inherit;
   height: 100%; 
+  height: inherit;
+  background-position: cover;
   left: 0;
   z-index: 0;
   /*transform: translateY(-100px);*/
@@ -113,7 +116,10 @@ a {
   background-image: url(../img/panel-recolor.jpg);
   /*background-size: cover;*/
   overflow: hidden;
+  width: 100%;
+  height: 100%;
 }
+
 
 .hero-content {
   padding: 16% 6% 8%;
@@ -964,7 +970,9 @@ footer small {
     flex-direction: column; }
     .feature .info {
       width: 320px;
-      margin: -10px auto 20px auto; }
+      margin: -10px auto 20px auto; 
+    }
+
 }
 
 
@@ -993,6 +1001,9 @@ footer small {
   }
   #attend {
     background-image: none; 
+  }
+  #attend video {
+    display: none;
   }
   #attend .location {
     font-size: 1.3em;
