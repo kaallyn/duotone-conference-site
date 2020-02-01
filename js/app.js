@@ -14,12 +14,12 @@ $(document).ready(function(){
 
     $(".fade").hide(0).delay(100).fadeIn(200);
     // (".hero").delay(200).addClass('animated fadeInDown')
-    $(".conf-logo").delay(300).addClass('animated fadeInDown');
-    $(".location").delay(300).addClass('animated fadeInLeft');
-    $(".sold-out-btn").delay(350).addClass('animated fadeInUp');
-    $(".nineteen").delay(350).addClass('animated fadeInUp');
-    $(".bg").delay(1450).addClass('animated fadeIn');
-    $(".memberRegistration").delay(350).addClass('animated bounce');
+    $(".conf-logo").addClass('animated fadeInDown');
+    $(".location").addClass('animated fadeInLeft');
+    $(".sold-out-btn").addClass('animated fadeInUp');
+    $(".nineteen").addClass('animated fadeInUp');
+    $(".bg").addClass('animated fadeIn');
+    $(".memberRegistration").addClass('animated bounce');
 
 
     // $(function(){
