@@ -73,8 +73,8 @@ body {
 #container {
   color: #D2DDE8;
   font-size: 1.5rem;
-  flex-direction: column;
-  justify-content: space-between;
+  /*flex-direction: column;
+  justify-content: space-between;*/
 }
 
 a {
@@ -262,6 +262,22 @@ a {
     cursor: default;
     padding: 11px 24px 8px;
     margin: 5px 0;
+    /*background-color: rgba(210, 221, 232, .91);
+    color: #3c3c3c;*/
+}
+
+.sold-out {
+    position: relative;
+    z-index: 3;
+    letter-spacing: 1px;
+    max-width: 50%;
+    font-size: 1.4rem;
+    margin-top: 4rem;
+}
+
+.sold-out a {
+    border-bottom: 1px solid #D2DDE8;
+    padding: 0 0 .125rem;
 }
 
 .btn-highlight:hover {
@@ -289,6 +305,8 @@ a {
   width: 100%;
   margin: 0 auto;
   position: relative;
+  display: block;
+  /*z-index: 500;*/
 }
 
 .keynote h1 {
@@ -426,6 +444,7 @@ footer small {
 #speakers {
   background-color: #3c3c3c;
   color: #D2DDE8; 
+  display: block;
 }
 
 .modal-content p {
@@ -830,7 +849,7 @@ footer small {
   letter-spacing: 1px;
   max-width: 800px;
   font-size: 1.4rem;
-  padding: 2.5rem 0;
+  padding: 0 0 2.5rem;
 }
 
 .vip-attend a {
@@ -1052,6 +1071,9 @@ footer small {
   .nineteen {
     display: none;
   }
+  .sold-out {
+    max-width: 100%;
+  }
 }
 
 
@@ -1059,6 +1081,11 @@ footer small {
 @media screen and (max-width: 460px) { 
   .conf-logo{
       width: 95%;
+  }
+
+  .bg {
+
+    background-position: left;
   }
   .location {
     font-size: 2rem;
